@@ -28,7 +28,10 @@ module.exports = function(grunt) {
       },
       lib: {
         files: '<%= jshint.lib.src %>',
-        tasks: ['jshint:lib', 'nodeunit']
+        tasks: ['jshint:lib', 'nodeunit'],
+        options: {
+          spawn: false
+        }
       },
       test: {
         files: '<%= jshint.test.src %>',
@@ -44,5 +47,4 @@ module.exports = function(grunt) {
 
   // Default task.
   grunt.registerTask('default', ['jshint', 'nodeunit']);
-
 };
