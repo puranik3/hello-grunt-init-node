@@ -1,0 +1,37 @@
+{
+  "name": "hello-grunt-init",
+  "description": "Learning grunt-init tool",
+  "version": "0.1.0",
+  "homepage": "https://github.com/puranik/hello-grunt-init-node",
+  "author": {
+    "name": "Prashanth Puranik",
+    "email": "puranik.prashanth@gmail.com"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/puranik/hello-grunt-init-node.git"
+  },
+  "bugs": {
+    "url": "https://github.com/puranik/hello-grunt-init-node/issues"
+  },
+  "licenses": [
+    {
+      "type": "MIT",
+      "url": "https://github.com/puranik/hello-grunt-init-node/blob/master/LICENSE-MIT"
+    }
+  ],
+  "main": "lib/hello-grunt-init",
+  "engines": {
+    "node": "6.1.0"
+  },
+  "scripts": {
+    "test": "grunt nodeunit"
+  },
+  "devDependencies": {
+    "grunt-contrib-jshint": "~0.6.4",
+    "grunt-contrib-nodeunit": "~0.2.0",
+    "grunt-contrib-watch": "~0.5.3",
+    "grunt": "~0.4.5"
+  },
+  "keywords": []
+}
